@@ -36,6 +36,9 @@ function App() {
       <div className="switch" data-isOn={isOn} onClick={toggleSwitch}>
       <motion.div className="handle" layout transition={spring} />
     </div>
+    <h3 className="text-3xl font-bold underline">
+      Hello world!
+    </h3>
     </>
   )
 }
