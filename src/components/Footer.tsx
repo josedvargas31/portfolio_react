@@ -1,7 +1,7 @@
 function Footer() {
 	return (
 		<>
-			<div className="flex flex-row h-20">
+			<div className="flex flex-row h-16">
 				<h1 className="pr-6 font-sans text-white/75 underline underline-offset-4 decoration-sky-200 hover:decoration-slate-500 cursor-pointer">
 					<a
 						href="https://www.linkedin.com/in/dario-jose-zamora-vargas-32b9aa318"
