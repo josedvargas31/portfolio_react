@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Header from "../components/Header";
+
+import Header from "../../components/Header";
 
 function AboutMe() {
 	// const [showHeader, setShowHeader] = useState<boolean>(false);
@@ -9,7 +9,7 @@ function AboutMe() {
 	// };
 	return (
 		<>
-			<div className="bg-zinc-900 w-full h-full">
+			<div className="bg-zinc-900 w-full h-screen">
 				<Header start="Inicio" aboutMe="Sobre mi" />
 				<h1 className="text-2xl underline text-cyan-400">
 					Hola, soy la vista de sobre mi
