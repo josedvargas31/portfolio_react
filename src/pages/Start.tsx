@@ -1,5 +1,6 @@
-import Header from "../../components/Header";
-import { profile } from "./mock-profile";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import { profile } from "../mocks/mock-profile";
 
 function Start() {
 	// Extraemos el primer perfil del mock (en este caso, el único perfil)
@@ -17,6 +18,7 @@ function Start() {
 						{interests}
 					</h3>
 				</div>
+				<Footer />
 			</div>
 		</>
 	);
