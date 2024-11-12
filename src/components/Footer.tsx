@@ -11,13 +11,22 @@ function Footer() {
 						LinkedIn
 					</a>
 				</h1>
-				<h1 className="font-sans text-white/75 underline underline-offset-4 decoration-sky-200 hover:decoration-slate-500 cursor-pointer">
+				<h1 className="pr-6  font-sans text-white/75 underline underline-offset-4 decoration-sky-200 hover:decoration-slate-500 cursor-pointer">
 					<a
 						href="https://github.com/josedvargas31"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						GitHub
+					</a>
+				</h1>
+				<h1 className="pr-6 font-sans text-white/75 underline underline-offset-4 decoration-sky-200 hover:decoration-slate-500 cursor-pointer">
+					<a
+						href="mailto:dajozavargas@gmail.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Email
 					</a>
 				</h1>
 			</div>

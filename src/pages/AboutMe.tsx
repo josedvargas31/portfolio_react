@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Languages from "../components/Languages";
 import FadeIn from "../components/motion/FadeIn";
 import Projects from "../components/Projects";
+import Tools from "../components/Tools";
 import { aboutMe } from "../mocks/mock-about-me";
 
 function AboutMe() {
@@ -25,7 +26,8 @@ function AboutMe() {
 				</FadeIn>
 				<Projects />
 				<Languages />
-				<div className="py-10">
+				<Tools />
+				<div className="py-2 pt-2">
 					<Footer />
 				</div>
 			</div>
