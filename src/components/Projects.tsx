@@ -5,9 +5,9 @@ function Projects() {
 	return (
 		<>
 			<FadeIn duration={2} delay={0.8}>
-				<h1 className="text-3xl font-bold text-stone-100 py-14 pb-5">
+				<h2 className="text-3xl font-bold text-stone-100 py-14 pb-5">
 					Proyectos
-				</h1>
+				</h2>
 			</FadeIn>
 			<div className="grid sm:grid-cols-2  xs:grid-cols-1 gap-8 place-content-between">
 				{proyects.map((project, index) => {

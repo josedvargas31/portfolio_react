@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Languages from "../components/Languages";
 import FadeIn from "../components/motion/FadeIn";
 import Projects from "../components/Projects";
 import { aboutMe } from "../mocks/mock-about-me";
@@ -23,6 +24,7 @@ function AboutMe() {
 					</h1>
 				</FadeIn>
 				<Projects />
+				<Languages />
 				<div className="py-10">
 					<Footer />
 				</div>
