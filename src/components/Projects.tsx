@@ -1,16 +1,13 @@
 import { motion } from "framer-motion";
-import FadeIn from "./motion/FadeIn";
 import { proyects } from "../mocks/mock-proyects";
 import { BsGithub } from "react-icons/bs";
 function Projects() {
 	return (
 		<>
 <div className="py-16">
-			<FadeIn duration={2} delay={0.8}>
 				<h2 className="text-3xl font-bold text-stone-100 pb-8">
 					Proyectos
 				</h2>
-			</FadeIn>
 			<div className="grid sm:grid-cols-2  xs:grid-cols-1 gap-8 place-content-between">
 				{proyects.map((project, index) => {
 					const { title, description, subtitle, tools, link } = project;

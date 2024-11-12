@@ -32,9 +32,10 @@ function Languages() {
 	} = languages[0];
 	return (
 		<div className="pt-20">
-			<FadeIn duration={2} delay={0.8}>
+			<FadeIn duration={2} delay={0.6}>
 			<h2 className="md:text-3xl font-bold text-stone-100 pb-8">Lenguajes</h2>
 			</FadeIn>
+			<FadeIn duration={2} delay={0.6}>
 			<div className="overflow-hidden rounded-lg shadow-lg bg-slate-800 py-4 px-10">
 				<div className="overflow-x-auto">
 					<div className="whitespace-nowrap">
@@ -132,6 +133,7 @@ function Languages() {
 					</div>
 				</div>
 			</div>
+			</FadeIn>
 		</div>
 	);
 }
