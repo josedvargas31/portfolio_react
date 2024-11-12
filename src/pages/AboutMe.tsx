@@ -9,10 +9,10 @@ function AboutMe() {
 	const { aboutMeTxt, greeting, description } = aboutMe[0];
 	return (
 		<>
-			<div className="bg-zinc-900 w-screeen w-screen flex flex-col px-6 md:px-28">
+			<div className="bg-zinc-900 w-screeen w-screen flex flex-col px-6 md:px-20 lg:px-40">
 				<Header start="Inicio" aboutMe="Sobre mi" />
 				<FadeIn duration={2} delay={0.4}>
-					<h1 className="text-5xl font-bold text-stone-100 py-5">
+					<h1 className="md:text-5xl text-4xl font-bold text-stone-100 py-5">
 						{aboutMeTxt}
 					</h1>
 				</FadeIn>

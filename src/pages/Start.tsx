@@ -8,7 +8,7 @@ function Start() {
 	const { profileName, title, interests } = profile[0];
 	return (
 		<>
-			<div className="bg-zinc-900 w-screen h-screen flex flex-col px-6 md:px-28">
+			<div className="bg-zinc-900 w-screen h-screen flex flex-col px-6 md:px-40">
 				<Header start="Inicio" aboutMe="Sobre mi" />
 				<div className="flex flex-col justify-center flex-grow">
 					<FadeIn duration={2} delay={0.2}>
