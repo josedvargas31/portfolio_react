@@ -5,8 +5,9 @@ import { BsGithub } from "react-icons/bs";
 function Projects() {
 	return (
 		<>
+<div className="py-16">
 			<FadeIn duration={2} delay={0.8}>
-				<h2 className="text-3xl font-bold text-stone-100 py-14 pb-5">
+				<h2 className="text-3xl font-bold text-stone-100 pb-8">
 					Proyectos
 				</h2>
 			</FadeIn>
@@ -54,6 +55,7 @@ function Projects() {
 						</motion.div>
 					);
 				})}
+			</div>
 			</div>
 		</>
 	);

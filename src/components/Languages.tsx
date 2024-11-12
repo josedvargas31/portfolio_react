@@ -1,4 +1,5 @@
 import { languages } from "../mocks/mock-languages";
+import FadeIn from "./motion/FadeIn";
 
 function Languages() {
 	const {
@@ -30,9 +31,10 @@ function Languages() {
 		closedbracket,
 	} = languages[0];
 	return (
-		<div className="py-16">
+		<div className="pt-20">
+			<FadeIn duration={2} delay={0.8}>
 			<h2 className="md:text-3xl font-bold text-stone-100 pb-8">Lenguajes</h2>
-
+			</FadeIn>
 			<div className="overflow-hidden rounded-lg shadow-lg bg-slate-800 py-4 px-10">
 				<div className="overflow-x-auto">
 					<div className="whitespace-nowrap">

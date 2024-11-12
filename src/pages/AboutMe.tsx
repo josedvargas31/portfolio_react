@@ -24,8 +24,8 @@ function AboutMe() {
 						{description}
 					</h1>
 				</FadeIn>
-				<Projects />
 				<Languages />
+				<Projects />
 				<Tools />
 				<div className="py-2 pt-2">
 					<Footer />
