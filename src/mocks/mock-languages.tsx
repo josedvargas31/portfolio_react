@@ -5,22 +5,25 @@ export const languages: LanguagesPros[] = [
 		variable: "const ",
 		namevariable: "lenguajes ",
         /* seccion frontend */
-        titlefrontend: 'Frontend ',
+        titlefrontend: 'Frontend',
+        js: 'js',
+        css: 'css',
         onefrontendjs: '"React"',
         twofrontendjs: '"Angular"',
         onecss: '"Tailwind"',
         twocss: '"Bootstrap"',
         /* seccion backend */
-        titlebackend: 'Backend ',
-        php: '"Laravel"',
+        titlebackend: 'Backend',
+        onephp: '"Laravel"',
+        php: 'php',
         onebackendjs: '"NodeJS"',
         twobackendjs: '"Express"',
         /* seccion databases */
-        titledatabases: 'DataBases ',
+        titledatabases: 'DataBases',
         onedatabase: '"MySQL"',
         twodatabase: '"NoSQL"',
         /* seccion movil */
-        titlemovil: 'Movil ',
+        titlemovil: 'Movil',
         onemovil: '"React Native"',
         /* signos */
 		equalsign: "= ",

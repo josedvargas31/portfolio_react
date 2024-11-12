@@ -3,12 +3,15 @@ export interface LanguagesPros {
 	namevariable: string;
 	/* seccion frontend */
 	titlefrontend: string;
+    js: string;
 	onefrontendjs: string;
 	twofrontendjs: string;
+    css: string
 	onecss: string;
 	twocss: string;
 	/* seccion backend */
 	titlebackend: string;
+    onephp: string;
 	php: string;
 	onebackendjs: string;
 	twobackendjs: string;
