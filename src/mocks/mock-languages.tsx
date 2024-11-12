@@ -9,7 +9,7 @@ export const languages: LanguagesPros[] = [
         js: 'js',
         css: 'css',
         onefrontendjs: '"React"',
-        twofrontendjs: '"Angular"',
+        twofrontendjs: '"React-Native"',
         onecss: '"Tailwind"',
         twocss: '"Bootstrap"',
         /* seccion backend */

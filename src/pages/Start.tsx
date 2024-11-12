@@ -12,7 +12,7 @@ function Start() {
 				<Header start="Inicio" aboutMe="Sobre mi" />
 				<div className="flex flex-col justify-center flex-grow">
 					<FadeIn duration={2} delay={0.2}>
-						<h1 className="text-transparent bg-clip-text bg-gradient-to-r md:text-9xl font-bold py-8 cursor-pointer from-stone-100 via-stone-100 to-stone-100 hover:from-indigo-400 hover:via-teal-400 hover:to-red-500">
+						<h1 className="text-transparent bg-clip-text bg-gradient-to-r text-5xl md:text-9xl font-bold py-8 cursor-pointer from-stone-100 via-stone-100 to-stone-100 hover:from-indigo-400 hover:via-teal-400 hover:to-red-500">
 							{profileName}
 						</h1>
 					</FadeIn>
