@@ -4,6 +4,6 @@ export const profile: Profile[] = [
     {
         profileName: 'Darío Zamora',
         title: 'Desarrollador FullStack 👨🏻‍💻',
-        interests: 'Me gusta aprender algo nuevo cada día y ayudar a los demás :D'
+        interests: 'Enfocado en aprender cosas nuevas día a día y ayudar a los demás. ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ'
     }
 ]

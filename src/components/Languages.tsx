@@ -1,7 +1,9 @@
 import { languages } from "../mocks/mock-languages";
+import { subtitles } from "../mocks/mock-subtittles";
 import FadeIn from "./motion/FadeIn";
 
 function Languages() {
+	const {sublanguages} = subtitles[0];
 	const {
 		variable,
 		namevariable,
@@ -33,7 +35,7 @@ function Languages() {
 	return (
 		<div className="pt-20">
 			<FadeIn duration={2} delay={0.6}>
-			<h2 className="text-3xl font-bold text-stone-100 pb-8">Lenguajes</h2>
+			<h2 className="text-3xl font-bold text-stone-100 pb-8">{sublanguages}</h2>
 			</FadeIn>
 			<FadeIn duration={2} delay={0.6}>
 			<div className="overflow-hidden rounded-lg shadow-lg bg-slate-800 py-4 px-10">

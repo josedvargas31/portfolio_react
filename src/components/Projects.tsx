@@ -1,12 +1,14 @@
 import { motion } from "framer-motion";
 import { proyects } from "../mocks/mock-proyects";
 import { BsGithub } from "react-icons/bs";
+import { subtitles } from "../mocks/mock-subtittles";
 function Projects() {
+	const {subproyectos} = subtitles[0];
 	return (
 		<>
 <div className="py-16">
 				<h2 className="text-3xl font-bold text-stone-100 pb-8">
-					Proyectos
+					{subproyectos}
 				</h2>
 			<div className="grid sm:grid-cols-2  xs:grid-cols-1 gap-8 place-content-between">
 				{proyects.map((project, index) => {
