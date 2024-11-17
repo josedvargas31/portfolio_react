@@ -1,7 +1,7 @@
 function Footer() {
 	return (
 		<>
-			<div className="flex flex-row h-16">
+			<footer className="flex flex-row h-16">
 				<h1 className="pr-6 font-sans dark:text-white/75 underline underline-offset-4 decoration-sky-200 text-zinc-500 hover:decoration-slate-500 cursor-pointer">
 					<a
 						href="https://www.linkedin.com/in/dario-jose-zamora-vargas-32b9aa318"
@@ -29,7 +29,7 @@ function Footer() {
 						Email
 					</a>
 				</h1>
-			</div>
+			</footer>
 		</>
 	);
 }
