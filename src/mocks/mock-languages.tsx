@@ -5,15 +5,15 @@ export const languages: LanguagesPros[] = [
 		variable: "const ",
 		namevariable: "lenguajes ",
         /* seccion frontend */
-        titlefrontend: 'Frontend',
+        titlefrontend: 'FrontEnd',
         js: 'js',
         css: 'css',
         onefrontendjs: '"React"',
-        twofrontendjs: '"React-Native"',
+        twofrontendjs: '"Angular"',
         onecss: '"Tailwind"',
         twocss: '"Bootstrap"',
         /* seccion backend */
-        titlebackend: 'Backend',
+        titlebackend: 'BackEnd',
         onephp: '"Laravel"',
         php: 'php',
         onebackendjs: '"NodeJS"',

@@ -4,11 +4,11 @@ function Tools() {
 	const {subherramientas} = subtitles[0];
 	return (
 		<>
-			<h2 className="text-3xl font-bold text-stone-100 pb-5">{subherramientas}</h2>
+			<h2 className="md:text-3xl text-2xl font-bold dark:text-stone-100 text-slate-800 pb-5">{subherramientas}</h2>
             <div className="px-6">
-            <ul className="list-disc text-stone-100">
-				<li className="pb-2 text-zinc-300">Editores: Android Studio,Visual Studio Code</li>
-				<li className="pb-10 text-zinc-300">Otros: Figma, Excalidraw, Postman, Dia</li>
+            <ul className="list-disc dark:text-stone-100 text-slate-700">
+				<li className="pb-2 dark:text-zinc-300 text-slate-700">Editores: Android Studio,Visual Studio Code</li>
+				<li className="pb-10 dark:text-zinc-300 text-slate-700">Otros: Figma, Excalidraw, Postman, Dia</li>
 			</ul>   
             </div>
 		
