@@ -8,11 +8,11 @@ function Start() {
 
 	return (
 		<>
-			<div className="dark:bg-zinc-900 w-screen h-screen flex flex-col px-6 md:px-40 lg:px-60">
+			<div className="dark:bg-zinc-900 w-screen h-screen flex flex-col px-6 sm:px-10 md:px-16 lg:px-40 xl:px-60">
 				<Header start="Inicio" aboutMe="Sobre mi" />
 				<div className="flex flex-col justify-center flex-grow">
 					<FadeIn duration={2} delay={0.2}>
-						<h1 className="text-transparent bg-clip-text bg-gradient-to-r from-stone-800 via-stone-500 to-stone-800 dark:from-stone-100 dark:via-stone-100 dark:to-stone-100 text-5xl md:text-9xl font-bold py-8 cursor-pointer hover:from-indigo-400 hover:via-teal-400 hover:to-red-500 dark:hover:from-indigo-300 dark:hover:via-teal-300 dark:hover:to-red-400">
+						<h1 className="text-transparent bg-clip-text bg-gradient-to-r from-stone-800 via-stone-500 to-stone-800 dark:from-stone-100 dark:via-stone-100 dark:to-stone-100 text-4xl sm:text-7xl md:text-8xl xl:text-9xl font-bold py-8 cursor-pointer hover:from-indigo-400 hover:via-teal-400 hover:to-red-500 dark:hover:from-indigo-300 dark:hover:via-teal-300 dark:hover:to-red-400">
 							{profileName}
 						</h1>
 					</FadeIn>

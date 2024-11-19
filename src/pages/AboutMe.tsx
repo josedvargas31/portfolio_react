@@ -12,7 +12,7 @@ function AboutMe() {
 
 	return (
 		<>
-			<div className="dark:bg-zinc-900 w-screeen w-screen flex flex-col px-6 md:px-40 lg:px-60">
+			<div className="dark:bg-zinc-900 w-screeen w-screen flex flex-col px-6 sm:px-10 md:px-16 lg:px-40 xl:px-60">
 				<Header start="Inicio" aboutMe="Sobre mi" />
 				<FadeIn duration={2} delay={0.2}>
 					<h1 className="md:text-5xl text-4xl font-bold dark:text-stone-100 text-slate-800 py-5">
