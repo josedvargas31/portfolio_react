@@ -1,4 +1,4 @@
-# React Starter Kit: Basics
+# React Starter Kit: Basics 👨🏻‍💻
 
 ## 🚀 Project Structure
 
